@@ -1,24 +1,196 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
-body{background-color: rgb(248, 236, 238);} .clear{clear: both;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(248, 236, 238);
+}
+.clear {
+  clear: both;
+}
 /*header*/
-.header{padding-left: 40px;} .header ul{display: block;} .header ul li{display: inline-block; padding: 10px;} .header ul li a{ text-decoration: none; color: black;}
+.header {
+  padding-left: 40px;
+}
+.header ul {
+  display: block;
+}
+.header ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: black;
+}
 /*banner*/
-.banner{background-image: url(../img/BG.png); height: 80vh; background-size: cover; background-position: center;}
+.banner {
+  background-image: url(../img/BG.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
 /*Activities*/
-.acti{padding-top: 60px; background-color: rgb(248, 236, 238); text-align: center;} .acti-title{color: gray; font-size: 30px;}
-.acti-iteam{width: 25%; float: left; padding: 20px;} .acti-card{padding: 40px; background-color: white; border-radius: 18px;} .acti-card img{width: 100%; border-radius: 20px;} .acti-img{position: relative;}
-.acti-love{width: 40px; height: 40px; line-height: 40px; border-radius: 14px; background-color: rgba(255, 255, 255, 0.5); position: absolute; top: 22px; right: 22px; color: red; z-index: 10; cursor: cell; font-weight: bold;}
-.acti-detail h3{color: black; line-height: 20px; margin-top: 10px;} .acti-detail p{line-height: 20px; margin-top: 11px; margin-bottom: 25px;}
-.acti-detail button{padding: 15px 50px; border-radius: 20px; color: rgb(81, 79, 79); border: transparent; background-color: rgb(185, 179, 179); font-size: 20px; letter-spacing: 1px; cursor: cell;}
-.acti-all{color: red; border: 1px solid red; border-radius: 20px; padding: 15px 70px; margin-bottom: 20px; background-color: transparent;}
-.acti-detail button:hover, .acti-all:hover{background-color: red; color: white;}
-.button{border-radius: 20px; border-color: red; font-size: 15px; color: red; cursor: pointer; padding-left: 60px; padding-right: 60px;  padding-top: 10px; padding-bottom: 10px; background-color: transparent;}
+.acti {
+  padding-top: 60px;
+  background-color: rgb(248, 236, 238);
+  text-align: center;
+}
+.acti-title {
+  color: gray;
+  font-size: 30px;
+}
+.acti-iteam {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+.acti-card {
+  padding: 40px;
+  background-color: white;
+  border-radius: 18px;
+}
+.acti-card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.acti-img {
+  position: relative;
+}
+.acti-love {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: red;
+  z-index: 10;
+  cursor: cell;
+  font-weight: bold;
+}
+.acti-detail h3 {
+  color: black;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.acti-detail p {
+  line-height: 20px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+.acti-detail button {
+  padding: 15px 50px;
+  border-radius: 20px;
+  color: rgb(81, 79, 79);
+  border: transparent;
+  background-color: rgb(185, 179, 179);
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: cell;
+}
+.acti-all {
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 15px 70px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+.acti-detail button:hover,
+.acti-all:hover {
+  background-color: red;
+  color: white;
+}
+.button {
+  border-radius: 20px;
+  border-color: red;
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
 /*Contact*/
-.cont{background-color: rgb(247, 219, 224); border-radius: 20px; margin-bottom: 100px; color: gray;} .cont-left, .cont-right{float: left; width: 50%; padding: 20px 60px;}
-.cont-left{background-image: url(../img/mask.png); background-size: cover; background-position: center;} .cont-right{padding-top: 70px;}
-.cont-right p{margin: 12px 0 30px; font-size: large;} .cont-right h3{margin-bottom: 20px;} .cont-app, .cont-us{float: left; width: 50%;}
-.cont-us i{color: orange; font-size: 40px; margin-right: 10px;}
+.cont {
+  background-color: rgb(247, 219, 224);
+  border-radius: 20px;
+  margin-bottom: 100px;
+  color: gray;
+}
+.cont-left,
+.cont-right {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+.cont-left {
+  background-image: url(../img/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+.cont-right {
+  padding-top: 70px;
+}
+.cont-right p {
+  margin: 12px 0 30px;
+  font-size: large;
+}
+.cont-right h3 {
+  margin-bottom: 20px;
+}
+.cont-app,
+.cont-us {
+  float: left;
+  width: 50%;
+}
+.cont-us i {
+  color: orange;
+  font-size: 40px;
+  margin-right: 10px;
+}
 /*Footer*/
-.footer{background-color: #f8e1db; border-radius: 100px 100px 0 0; padding: 100px 30px; color: black; margin-top: 100px;}
-.footer h3{font-size: 20px; margin-bottom: 20px;} .footer-about{float: left; width: 40%; line-height: 28px; padding: 0 20px;} .footer-list{float: left; width: 60%; padding: 0 20px;}
-.footer-nav{float: left; width: 33.33%;} .footer-nav li{list-style: none; margin-bottom: 15px;} .footer-nav a{text-decoration: none; color: black;} .footer-copy{text-align: center; padding-top: 50px;}
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0;
+  padding: 100px 30px;
+  color: black;
+  margin-top: 100px;
+}
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer-about {
+  float: left;
+  width: 40%;
+  line-height: 28px;
+  padding: 0 20px;
+}
+.footer-list {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+.footer-nav {
+  float: left;
+  width: 33.33%;
+}
+.footer-nav li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: black;
+}
+.footer-copy {
+  text-align: center;
+  padding-top: 50px;
+}
